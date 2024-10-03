@@ -6,7 +6,7 @@ function sum(a,b,n)
             if(i%a==0 || i%b==0)
                 s+=i;
         }
-        alert("Sum = "+s);
+        alert("The sum is "+s);
     }
 
 function GetValues()
