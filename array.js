@@ -18,4 +18,4 @@ let l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let a = 2;
 let b = 3;
 let result = sumOfMultiples(a, b, l);
-console.log(result);  // Output: 40 (2 + 3 + 4 + 6 + 8 + 9 + 10)*/
+console.log(result);  // Output: 40 (2 + 3 + 4 + 6 + 8 + 9 + 10)
