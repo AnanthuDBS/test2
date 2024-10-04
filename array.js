@@ -14,8 +14,8 @@ function sumOfMultiples(a, b, l) {
 }
 
 
-const l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+/*const l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const a = 2;
 const b = 3;
 const result = sumOfMultiples(a, b, l);
-console.log(result);  // Output: 40 (2 + 3 + 4 + 6 + 8 + 9 + 10)
+console.log(result);  // Output: 40 (2 + 3 + 4 + 6 + 8 + 9 + 10)*/
