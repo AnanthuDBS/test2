@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sum of Multiples</title>
+</head>
+<body>
+    <h2>Sum of Multiples Calculator</h2>
+
+    <label for="listA">Enter list a (comma separated):</label>
+    <input type="text" id="listA" placeholder="e.g., 2, 3, 5"><br><br>
+
+    <label for="listL">Enter list l (comma separated):</label>
+    <input type="text" id="listL" placeholder="e.g., 6, 15, 30, 11"><br><br>
+
+    <button onclick="calculateSum()">Calculate Sum</button>
+
+    <h3>Result:</h3>
+    <p id="result"></p>
+
+    <script>
+        function calculateSum() {
+           
+            let a = document.getElementById('listA').value.split(',').map(Number);
+            let l = document.getElementById('listL').value.split(',').map(Number);
+
+            let totalSum = 0;
+
+            
+            for (let num of l) {
+                for (let divisor of a) {
+                    if (num % divisor === 0) {
+                        totalSum += num;
+                        break;  
+                    }
+                }
+            }
+
+           
+            document.getElementById('result').textContent = 'Sum of multiples: ' + totalSum;
+        }
+    </script>
+</body>
+</html>
