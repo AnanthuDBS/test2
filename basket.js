@@ -8,7 +8,7 @@ returns the total cost of the basket*/
 let Basket = (basket, prices)=>{
     let total=0;
     for(let item in basket){
-        if prices[item] != undefined){
+        if (prices[item] != undefined){
             total += basket[item]*prices[item];
         }
     }
