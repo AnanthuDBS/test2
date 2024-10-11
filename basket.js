@@ -16,4 +16,4 @@ let Basket = (basket, prices)=>{
 }
 basket = {sandwich:1, beef:1, bread:1};
 price = {apple:2.5, orange:3.05, grapes:2.5, sandwich:2.99};
-alert(Basket(basket,price));
+alert("The total price of the items in your basket is " + Basket(basket,price));
