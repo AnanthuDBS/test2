@@ -16,5 +16,6 @@ let Basket = (basket, prices)=>{
 }
 basket = {sandwich:4, kiwi:3, bread:5};
 price = {apple:2.5, kiwi:3.05, grapes:2.5, sandwich:2.99, bread:1.85};
-alert("The total price of the items in your basket is " + Basket(basket,price));
-document.getElementById("Total_Value").innerHTML = "The total price is: $" + Total_value.toFixed(2);
+let x=Basket(basket,price);
+alert("The total price of the items in your basket is " + x);
+document.getElementById("Total_Value").innerHTML = "The total price is: $" + x.toFixed(2);
